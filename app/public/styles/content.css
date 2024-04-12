@@ -1,0 +1,143 @@
+html,
+body {
+  height: 100%;
+}
+h2 {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  #hero-responsive {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #hero-responsive {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero-responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #hero-responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+header,
+footer {
+  flex: 0 0 auto;
+}
+
+main {
+  text-align: center;
+  padding: 5vmin;
+  flex: 1 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#profile-id {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 576px) {
+  .contact_me {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .contact_me {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact_me {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact_me {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contact_me {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
