@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popppins", sans-serif;
+}
+i {
+  margin-right: 10px;
+}
+h1 {
+  font-family: serif;
+  color: #126434;
+}
+#sdet-home {
+  font-family: serif;
+  font-size: large;
+  font-weight: 100;
+  color: #126434;
+}
+#about-id {
+  font-family: serif;
+  font-size: large;
+  font-weight: 100;
+  color: #126434;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #126434;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5px;
+}
+header {
+  position: relative;
+  width: 100%;
+  background: #126434;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#social-media {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#social-media {
+  list-style: none;
+}
+#social-media li #icon-id {
+  font-size: 2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+#social-media li #icon-id:hover {
+  transform: translateY(-15px);
+  color: ghostwhite;
+}
+
+footer li #icon-id {
+  font-size: 1.2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+footer li #icon-id:hover {
+  opacity: 1;
+  color: #fff;
+}
+p {
+  color: whtie;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+.note {
+  text-align: center;
+  font-family: serif;
+  font-size: large;
+  font-weight: 100;
+  color: #126434;
+  margin-bottom: auto;
+}
+#note-id-1st {
+  margin-bottom: 0;
+}
+
+#note-id-2nd {
+  margin: 0;
+  padding-top: 0;
+}
+#note-id-3rd {
+  margin: 0;
+  padding-top: 0;
+}
+.copyright {
+  color: white;
+}
+
+/*----------bootstrap-navbar-css-----------*/
+
+.container-fluid {
+  background: rgb(91, 144, 109);
+}
+.navbar-mainbg {
+  background-color: #126434;
+  padding: 0px;
+}
