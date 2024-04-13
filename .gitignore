@@ -30,5 +30,5 @@ Thumbs.db
 *.komodoproject
 
 # Folders to ignore
-dist
-node_modules
+dist/
+node_modules/

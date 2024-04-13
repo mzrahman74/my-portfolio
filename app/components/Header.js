@@ -31,7 +31,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="https://drive.google.com/file/d/16QZKiI_-_atvQqWqhpwz4a8iLY56rwHu/view?usp=sharing" target="_blank">
+                <Link className="nav-link" to="https://drive.google.com/file/d/1zq_6Xw3bOwsXPBwSRl4opxqMhZO0OydW/view?usp=sharing" target="_blank">
                   <i className="far fa-copy"></i>Resume
                 </Link>
               </li>
