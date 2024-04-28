@@ -11,6 +11,7 @@ class RunAfterCompile {
     compiler.hooks.done.tap("Copy files", function () {
       fse.copySync("./app/public/images/contact_me.jpeg", "./dist/public/images/contact_me.jpeg");
       fse.copySync("./app/public/images/hero.png", "./dist/public/images/hero.png");
+      fse.copySync("./app/public/images/favicon.ico", "./dist/public/images/favicon.ico");
       fse.copySync("./app/public/images/logo-github.svg", "./dist/public/images/logo-github.svg");
       fse.copySync("./app/public/images/logo-linkedin.svg", "./dist/public/images/logo-linkedin.svg");
       fse.copySync("./app/public/images/logo.png", "./dist/public/images/logo.png");
