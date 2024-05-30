@@ -2,11 +2,6 @@ html,
 body {
   height: 100%;
 }
-
-.video-container {
-  display: flex;
-  justify-content: center;
-}
 .logo {
   margin-left: auto;
   margin-right: auto;
@@ -17,64 +12,37 @@ body {
 h2 {
   text-align: center;
 }
-@media (min-width: 375px) {
-  #hero-responsive {
-    width: 100%;
-    height: auto;
-  }
-}
+
 @media (min-width: 576px) {
-  #hero-responsive {
-    width: 100%;
-    height: auto;
+  .video-container {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 768px) {
-  #hero-responsive {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (min-width: 768px) {
-  #hero-responsive {
-    height: 360px;
-    width: 500;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .video-container {
+    display: flex;
     justify-content: center;
   }
 }
 
 @media (min-width: 992px) {
-  #hero-responsive {
-    height: 360px;
-    width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .video-container {
+    display: flex;
     justify-content: center;
   }
 }
 
 @media (min-width: 1200px) {
-  #hero-responsive {
-    height: 360px;
-    width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .video-container {
+    display: flex;
     justify-content: center;
   }
 }
 
 @media (min-width: 1400px) {
-  #hero-responsive {
-    height: 360px;
-    width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .video-container {
+    display: flex;
     justify-content: center;
   }
 }
