@@ -9,9 +9,6 @@ body {
   height: 24px;
   margin-bottom: auto;
 }
-h2 {
-  text-align: center;
-}
 
 @media (min-width: 576px) {
   .video-container {
@@ -45,12 +42,6 @@ h2 {
     display: flex;
     justify-content: center;
   }
-}
-
-ul li {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
 }
 
 body {

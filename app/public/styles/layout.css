@@ -2,24 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Popppins", sans-serif;
+  font-family: "Popppins", Georgia;
 }
 i {
   margin-right: 10px;
 }
 h1 {
-  font-family: serif;
+  font-family: Georgia;
   color: #126434;
+  font-size: larger;
+  font-weight: 100;
 }
-#sdet-home {
-  font-family: serif;
-  font-size: large;
+h2 {
+  font-family: Georgia;
+  color: #126434;
+  text-align: center;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.list-skill {
+  font-family: Georgia;
+  font-size: small;
   font-weight: 100;
   color: #126434;
 }
+#sdet-home {
+  font-family: Georgia;
+  font-size: small;
+  font-weight: 100;
+  color: #126434;
+}
+
 #about-id {
-  font-family: serif;
-  font-size: large;
+  font-family: Georgia;
+  font-size: small;
   font-weight: 100;
   color: #126434;
 }
@@ -83,18 +100,18 @@ footer li #icon-id:hover {
   opacity: 1;
   color: #fff;
 }
-p {
-  color: whtie;
-  padding: 15px;
-  margin-left: 20px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 1.1em;
+#footer-p {
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  text-decoration: none;
+  font-family: Georgia;
 }
 .note {
   text-align: center;
-  font-family: serif;
-  font-size: large;
+  font-family: Georgia;
+  font-size: small;
   font-weight: 100;
   color: #126434;
   margin-bottom: auto;
@@ -110,9 +127,6 @@ p {
 #note-id-3rd {
   margin: 0;
   padding-top: 0;
-}
-.copyright {
-  color: white;
 }
 
 /*----------bootstrap-navbar-css-----------*/
