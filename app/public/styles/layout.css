@@ -23,20 +23,20 @@ h2 {
 
 .list-skill {
   font-family: Georgia;
-  font-size: small;
+  font-size: medium;
   font-weight: 100;
   color: #126434;
 }
 #sdet-home {
   font-family: Georgia;
-  font-size: small;
+  font-size: medium;
   font-weight: 100;
   color: #126434;
 }
 
 #about-id {
   font-family: Georgia;
-  font-size: small;
+  font-size: medium;
   font-weight: 100;
   color: #126434;
 }
@@ -104,14 +104,14 @@ footer li #icon-id:hover {
   color: whitesmoke;
   margin: 0;
   padding: 0;
-  font-size: small;
+  font-size: medium;
   text-decoration: none;
   font-family: Georgia;
 }
 .note {
   text-align: center;
   font-family: Georgia;
-  font-size: small;
+  font-size: medium;
   font-weight: 100;
   color: #126434;
   margin-bottom: auto;
