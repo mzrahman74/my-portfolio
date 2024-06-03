@@ -18,7 +18,7 @@ function Footer() {
           </Link>
         </li>
       </ul>
-      <p>Copyright © {new Date().getFullYear()} Mohammad Rahman. All right reserved.</p>
+      <p id="footer-p">Copyright © {new Date().getFullYear()} Mohammad Rahman. All right reserved.</p>
     </footer>
   );
 }
