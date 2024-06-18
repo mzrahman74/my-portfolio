@@ -32,10 +32,12 @@ Welcome to my portfolio website project! This project showcases my skills and pr
 
 ## Installation
 
-### Prerequisites
+## Prerequisites
 
-- Node.js (v14 or later)
-- npm (v6 or later)
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (>=21.6)
+- npm (>=10.2) 
 
 ### Steps
 
