@@ -30,14 +30,14 @@ Welcome to my portfolio website project! This project showcases my skills and pr
 - **Bootstrap**: For responsive design.
 - **Node.js**: For the backend API.
 
-## Installation
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - Node.js (>=21.6)
 - npm (>=10.2) 
+
+## Installation
 
 ### Steps
 
