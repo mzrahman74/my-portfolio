@@ -14,12 +14,14 @@ body {
   .video-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
 @media (min-width: 768px) {
   .video-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -27,6 +29,7 @@ body {
   .video-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -34,6 +37,7 @@ body {
   .video-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -41,6 +45,7 @@ body {
   .video-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
 
