@@ -11,9 +11,9 @@ function Home() {
           <iframe className="video_one" src="https://www.youtube.com/embed/L7dAYld_7aM" frameborder="0" allowfullscreen="ture"></iframe>
           <iframe className="video_two" src="https://www.youtube.com/embed/E4ikuWxpu1M" frameborder="0" allowfullscreen="true"></iframe>
           <iframe className="video_three" src="https://www.youtube.com/embed/ER9Er4P8TJE" frameborder="0" allowfullscreen="true"></iframe>
+          <iframe className="video_four" src="https://www.youtube.com/embed/jJuD65mdd9E" frameborder="0" allowfullscreen="true"></iframe>
         </div>
         <div className="video-row">
-          <iframe className="video_four" src="https://www.youtube.com/embed/jJuD65mdd9E" frameborder="0" allowfullscreen="true"></iframe>
           <iframe className="video_five" src="https://www.youtube.com/embed/uDkvctQyKNM" frameborder="0" allowfullscreen="true"></iframe>
         </div>
       </div>
