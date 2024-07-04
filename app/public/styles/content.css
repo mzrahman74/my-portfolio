@@ -8,6 +8,7 @@ body {
   width: 24px;
   height: 24px;
   margin-bottom: auto;
+  background-color: #808080;
 }
 
 @media (min-width: 576px) {
