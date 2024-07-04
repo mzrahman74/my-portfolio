@@ -9,42 +9,45 @@ i {
 }
 h1 {
   font-family: Georgia;
-  color: #126434;
+  color: black;
   font-size: larger;
   font-weight: 100;
 }
 h2 {
   font-family: Georgia;
-  color: #126434;
+  color: black;
   text-align: center;
   font-size: medium;
   font-weight: 100;
+}
+.logo {
+  background-color: #808080;
 }
 
 .list-skill {
   font-family: Georgia;
   font-size: medium;
   font-weight: 100;
-  color: #126434;
+  color: black;
 }
 #sdet-home {
   font-family: Georgia;
   font-size: medium;
   font-weight: 100;
-  color: #126434;
+  color: black;
 }
 
 #about-id {
   font-family: Georgia;
   font-size: medium;
   font-weight: 100;
-  color: #126434;
+  color: black;
 }
 
 footer {
   position: relative;
   width: 100%;
-  background: #126434;
+  background: #808080;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -57,7 +60,7 @@ footer {
 header {
   position: relative;
   width: 100%;
-  background: #126434;
+  background: #808080;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -113,7 +116,7 @@ footer li #icon-id:hover {
   font-family: Georgia;
   font-size: medium;
   font-weight: 100;
-  color: #126434;
+  color: black;
   margin-bottom: auto;
 }
 #note-id-1st {
@@ -132,9 +135,9 @@ footer li #icon-id:hover {
 /*----------bootstrap-navbar-css-----------*/
 
 .container-fluid {
-  background: rgb(91, 144, 109);
+  background: #808080;
 }
 .navbar-mainbg {
-  background-color: #126434;
+  background-color: #808080;
   padding: 0px;
 }
