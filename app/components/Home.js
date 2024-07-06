@@ -15,6 +15,7 @@ function Home() {
         </div>
         <div className="video-row">
           <iframe className="video_five" src="https://www.youtube.com/embed/uDkvctQyKNM" frameborder="0" allowfullscreen="true"></iframe>
+          <iframe className="video_six" src="https://www.youtube.com/embed/gaU2l8n0llg" frameborder="0" allowfullscreen="true"></iframe>
         </div>
       </div>
       <hr />
