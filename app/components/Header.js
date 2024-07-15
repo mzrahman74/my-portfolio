@@ -31,7 +31,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="https://www.dropbox.com/scl/fi/fmdlzixm283sn1difeozy/Software_development_in_test.pdf?rlkey=4mazhmjpfff6rtw9kifr4n5y2&st=1o716me2&dl=0" target="_blank">
+                <Link className="nav-link" to="https://www.dropbox.com/scl/fi/cvb9bgibh7z4ky7y3myr7/Software_Development_Engineer_in_Test.pdf?rlkey=kh43uhsx62qq3oj2yzxskf9i1&st=tqb320xj&dl=0" target="_blank">
                   <i className="far fa-copy"></i>Resume
                 </Link>
               </li>
