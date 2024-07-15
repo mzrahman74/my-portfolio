@@ -16,6 +16,9 @@ class RunAfterCompile {
       fse.copySync("./app/public/images/logo-linkedin.svg", "./dist/public/images/logo-linkedin.svg");
       fse.copySync("./app/public/images/logo.png", "./dist/public/images/logo.png");
       fse.copySync("./app/public/images/Mohammad_Rahman.JPG", "./dist/public/images/Mohammad_Rahman.JPG");
+      fse.copySync("./app/public/images/aws_spring_boot_deployment.jpg", "./dist/public/images/aws_spring_boot_deployment.jpg");
+      fse.copySync("./app/public/images/github_profile.jpg", "./dist/public/images/github_profile.jpg");
+      fse.copySync("./app/public/images/playwright_js_automation.jpg", "./dist/public/images/playwright_js_automation.jpg");
       fse.copySync("./app/public/styles/content.css", "./dist/public/styles/content.css");
       fse.copySync("./app/public/styles/layout.css", "./dist/public/styles/layout.css");
     });

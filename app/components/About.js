@@ -1,13 +1,34 @@
 import React from "react";
-import mohammad from "../public/images/Mohammad_Rahman.JPG";
+import github from "../public/images/github_profile.jpg";
+import aws from "../public/images/aws_spring_boot_deployment.jpg";
+import playwright from "../public/images/playwright_js_automation.jpg";
 
 function About() {
   return (
     <div className="container container--narrow py-md-5">
       <h1>About Me</h1>
-      <hr />
-      <img className="profile" id="profile-id" src={`${mohammad}`} alt="my_profile" />
-      <hr />
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src={`${github}`} class="d-block w-100" alt="github_profile" />
+          </div>
+          <div class="carousel-item">
+            <img src={`${aws}`} class="d-block w-100" alt="aws_certificate" />
+          </div>
+          <div class="carousel-item">
+            <img src={`${playwright}`} class="d-block w-100" alt="playwright_certificate" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br />
       <p className="about" id="about-id">
         Quality Engineer with over eight years of experience in developing and implementing quality control systems across various software development projects. Skilled in analyzing product and process performance data to drive continuous improvement initiatives. Experienced in both contract and full-time roles, specializing in white-box testing and performance testing within local development environments.
       </p>
