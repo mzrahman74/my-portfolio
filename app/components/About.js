@@ -2,6 +2,7 @@ import React from "react";
 import github from "../public/images/github_profile.jpg";
 import aws from "../public/images/aws_spring_boot_deployment.jpg";
 import playwright from "../public/images/playwright_js_automation.jpg";
+import cyber from "../public/images/cyber_security.png";
 
 function About() {
   return (
@@ -17,6 +18,9 @@ function About() {
           </div>
           <div class="carousel-item">
             <img src={`${playwright}`} class="d-block w-100" alt="playwright_certificate" />
+          </div>
+          <div class="carousel-item">
+            <img src={`${cyber}`} class="d-block w-100" alt="cyber_security_certificate" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
