@@ -1,5 +1,5 @@
 import React from "react";
-import github from "../public/images/github_profile.jpg";
+import github from "../public/images/github_profile.png";
 import aws from "../public/images/aws_spring_boot_deployment.jpg";
 import playwright from "../public/images/playwright_js_automation.jpg";
 import cyber from "../public/images/cyber_security.png";
