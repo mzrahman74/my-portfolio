@@ -13,13 +13,13 @@ function About() {
           <div class="carousel-item active">
             <img src={`${github}`} class="d-block w-100" alt="github_profile" />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src={`${aws}`} class="d-block w-100" alt="aws_certificate" />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src={`${playwright}`} class="d-block w-100" alt="playwright_certificate" />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src={`${cyber}`} class="d-block w-100" alt="cyber_security_certificate" />
           </div>
         </div>
@@ -33,8 +33,20 @@ function About() {
         </button>
       </div>
       <br />
+
       <p className="about" id="about-id">
         Quality Engineer with over eight years of experience in developing and implementing quality control systems across various software development projects. Skilled in analyzing product and process performance data to drive continuous improvement initiatives. Experienced in both contract and full-time roles, specializing in white-box testing and performance testing within local development environments.
+      </p>
+      <p className="about" id="about-id">
+        Clients I've had the pleasure of working with:
+        <ul>
+          <li>Centene: Contributed to software development in test automation and advanced healthcare management systems.</li>
+          <li>TimeDoc Health: Collaborated with the development team to optimize local environments and streamline healthcare solutions. </li>
+          <li>Norwex: Automated web and api testing and improved digital marketing strategies.</li>
+          <li>SiriusXM: Played a key role in native app automation and optimized content delivery strategies.</li>
+          <li>Nielsen: Assisted with native app automation and supported data analysis and marketing research efforts.</li>
+          <li>Securus Technologies: Engaged in both manual and automated testing for web application and enhanced knowledge of the software development lifecycle.</li>
+        </ul>
       </p>
       <p className="about" id="about-id">
         Notable achievements include leading the implementation of quality control systems resulting in a 20% reduction in defect rates and streamlining processes to improve overall product quality and efficiency.
