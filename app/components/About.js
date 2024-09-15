@@ -2,6 +2,7 @@ import React from "react";
 import aws from "../public/images/aws_spring_boot_deployment.jpg";
 import playwright from "../public/images/playwright_js_automation.jpg";
 import cyber from "../public/images/cyber_security.png";
+import spring_boot from "../public/images/spring_boot_fundamentals_with_unit_testing.jpg";
 
 function About() {
   return (
@@ -16,6 +17,9 @@ function About() {
         </div>
         <div className="certificate">
           <img src={`${cyber}`} alt="cyber_security_certificate" />
+        </div>
+        <div className="certificate">
+          <img src={`${spring_boot}`} alt="spring_boot_certificate" />
         </div>
       </div>
       <p className="about" id="about-id">
