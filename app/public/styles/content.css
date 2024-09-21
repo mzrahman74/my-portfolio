@@ -165,3 +165,18 @@ h1 {
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
+
+iframe .video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 3fr));
+  justify-items: center;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+iframe {
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
