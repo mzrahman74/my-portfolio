@@ -12,11 +12,11 @@ function Footer() {
             <ion-icon src={`${github}`}></ion-icon>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link id="icon-id" to="https://www.linkedin.com/in/mohammad-rahman/" target="_blank">
             <ion-icon src={`${linkedin}`}></ion-icon>
           </Link>
-        </li>
+        </li> */}
       </ul>
       <p id="footer-p">Copyright © {new Date().getFullYear()} Mohammad Rahman. All right reserved.</p>
     </footer>
